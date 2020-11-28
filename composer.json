@@ -1,0 +1,14 @@
+{
+  "name": "vcloudllc/vci-core",
+  "type": "library",
+  "description": "VCloud Default Core",
+  "license": "MIT",
+  "autoload": {
+    "classmap": [
+        "./"
+    ]
+  },
+  "require": {
+    "google/apiclient": "^2.7"
+  }
+}

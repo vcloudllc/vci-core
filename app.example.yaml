@@ -1,0 +1,15 @@
+
+runtime: php74
+
+service: default
+
+handlers:
+  - url: /views/assets
+    static_dir: views/assets
+
+env_variables:
+  DSN_TYPE: 
+  MYSQL_DSN: 
+  MYSQL_USER: 
+  MYSQL_DBNAME: 
+  MYSQL_PASSWORD: 
